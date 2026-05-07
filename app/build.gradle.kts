@@ -33,6 +33,6 @@ dependencies {
     implementation("androidx.activity:activity-ktx:1.8.2")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
-    // JEDYNA biblioteka TensorFlow Lite
-    implementation("org.tensorflow:tensorflow-lite:2.16.1")
+    // Biblioteka TensorFlow Lite (wersja wspierająca nowsze modele)
+    implementation("org.tensorflow:tensorflow-lite:2.17.0")
 }
